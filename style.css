@@ -1,0 +1,86 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  background-color: #DAF0FF;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #29A8FF;
+}
+
+h2, a {
+  text-align: center;
+  margin-top: 10px;
+  color: #cac8c8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #29A8FF;
+  transition: all 0.5s;
+}
+
+#operador {
+  background-color: #005DB2;
+  color: #DAF0FF;
+}
+
+#operador:hover {
+  background-color: #1a8bf5;
+  color: #DAF0FF;
+}
+
+.calculadora {
+  width: 314px;
+  margin: 0 auto;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px #006BB5;
+}
+
+#pantalla {
+  width: 90%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+input[type="button"] {
+  width: 70px;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  background-color: #303136;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #29A8FF
+}
+
+input[type="button"]:hover {
+  background-color: #29A8FF;
+  color: #303136;
+}
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}
+
+p {
+  text-align: center;
+  color: #cac8c8;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+  color: #cac8c8;
+  font-size: small;
+}
